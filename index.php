@@ -1,4 +1,3 @@
-<?php require_once 'admin/function.php';?>
 <!DOCTYPE html>
 <html lang="ru">
   <head>
@@ -8,17 +7,17 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
-    <title><?=getItem($log)[0];?></title>
+    <title>Описание в тайтл</title>
   </head>
   <body>
     <header class="container">
       <div class="row d-flex align-items-center justify-content-center ">
-        <div class="col-md-3"><a href="/"><img src="img/logo.png" alt="&ldquo;ООО&rdquo;СпецТекстильТорг"></a></div>
+        <div class="col-md-3"><a href="index.php"><img src="img/logo.png" alt="&ldquo;ООО&rdquo;СпецТекстильТорг"></a></div>
         <div class="col-md-6 d-flex justify-content-center">
-          <h3><?=getItem($log)[2];?></h3>
+          <h3>Заголовок h3</h3>
         </div>
         <div class="col-md-3 callback">
-          <a href="tel:+7 (910) 686-79-77" class="" >+7 (910) 686-79-77</a><br/>
+          <a href="tel:+7 (910) 686-79-77" class="" >телефон</a><br/>
           <button type="button" class="btn bg-warning mt-2 btn-hover" data-toggle="modal" data-target="#exampleModal">Отправить заказ</button>
         </div>
       </div>
@@ -46,7 +45,7 @@
       <div class="bg-img">
         <div class="utp">
         <h3>
-            <?=getItem($log)[1];?>
+            Описание
         </h3>
       </div>
         <div class="form-header">
@@ -74,7 +73,7 @@
         </div>
         <div class="row ">
         <div class="col-md-12 ">
-          <p><?=getItem($log)[3];?></p>
+          <p>Описание</p>
         </div>
         </div>
       </div>
@@ -157,7 +156,7 @@
         <div class="container border border-warning mt-4 pt-4 pb-4">
             <div class="row">
                 <div class="col-md-6 ml-md-auto mr-md-auto">
-                    <h5>ЕСТЬ ВОПРОСЫ? ЗВОНИТЕ <a href="tel:+7 (910) 686-79-77" class="" >+7 (910) 686-79-77</a></h5>
+                    <h5>ЕСТЬ ВОПРОСЫ? ЗВОНИТЕ <a href="tel:+7 (910) 686-79-77" class="" >Телефон</a></h5>
                 </div>
             </div>\
             <div class="row ">
