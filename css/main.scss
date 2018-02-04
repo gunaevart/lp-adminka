@@ -1,0 +1,85 @@
+body {
+	/* background:#F2F3F4; */
+	background:#eee; 
+}
+/* ---------------Секция header------------------- */
+
+$hederMt: 1rem; // Отступ шапки
+
+header {
+	margin-top: $hederMt;
+}
+.btn-hover:hover {
+	cursor: pointer;
+}
+
+/* ---------------Секция NAV------------------- */
+
+$navColor:#fff;
+$navColorHover:#000;
+
+.nav-link {
+	color: $navColor;
+	&:hover{
+		color: $navColorHover;
+	}
+}
+/* ---------------Секция section bg-img------------------- */
+
+.bg-img {
+	background: url('../img/bg-header.jpg');
+  height: 638px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  .form-header {
+  	width: 700px;
+  	margin:0 auto;
+  	margin-top: 10rem;
+  }
+  .utp {
+  	color:#fff;
+  	width: 800px;
+  	margin:0 auto;
+  	text-align: center;
+  	padding-top: 10rem;
+
+  }
+.backfone {
+	color:#fff;
+	font-size:1.3rem;
+	margin-top: 2px;
+	padding-top: 8px;
+	span{
+		background: #bc1339;
+		padding: 3px 5px 5px 5px;
+		border-radius: 5px;
+	}
+}
+}
+
+/* ---------------Секция section title------------------- */
+.h1 {
+	font-size: 2rem;
+}
+/* ---------------Секция <section id="category"------------------- */
+#category {
+	position:relative;
+	img{
+
+		&:hover{
+			transform: scale(1.15, 1.15);
+		}
+	}
+	p {
+		position:absolute;
+		width:400px;
+		margin: 0 auto;
+		top: 7rem;
+		font-family: inherit;
+		font-size:1.1rem;
+		color:#fff;
+		text-align:center;
+		font-weight: 700;
+	}
+}
